@@ -1,0 +1,32 @@
+.brand_list {
+    padding: 40px 0;
+}
+
+.top_brand {
+    background: none !important;
+}
+
+.top_brand .insp_items h3 {
+    font-size: 16px;
+}
+
+.top_brand .imgSecion {
+    /* border: 2px solid red; */
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+
+}
+
+.top_brand .imgSecion img {
+    height: 100%;
+    width: 100%;
+
+}
+
+.top_brand p {
+    font-size: 16px;
+    color: #1C1C1C;
+}

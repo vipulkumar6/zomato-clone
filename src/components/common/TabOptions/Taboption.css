@@ -1,0 +1,87 @@
+@import '../ColorAndStyle.css';
+
+:root {
+    --zomato_text_color_dark: #696969;
+    --inActive_color: #696969;
+    --active_color: #EF4F5F;
+}
+
+.tabOptions .imgsec {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(252, 238, 192); */
+    margin-right: 9px;
+}
+
+.tabOptions {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* border: 1px solid; */
+    min-height: 6.2rem;
+    /* padding: 0 15px; */
+    padding: 0 0 0 240px;
+    transition: all 0.5s ease;
+    transition-delay: 0.2s;
+    /* Add a slight delay before sticky effect */
+
+
+
+}
+
+.tabOptions .option {
+    display: flex;
+    align-items: center;
+    padding-left: 8px;
+}
+
+.tabOptions .imgsec img {
+    height: 30px;
+    width: 30px;
+}
+
+.tabOptions h3 {
+    font-size: 20px;
+    /* font-weight: 500; */
+    color: var(--zomato_text_color_dark);
+}
+
+.tab_item {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid; */
+    /* padding-bottom: 7px; */
+    /* border-bottom: 1px solid var(--inActive_color); */
+    margin-right: 40px;
+}
+
+.active_tab h3 {
+    color: var(--active_color);
+}
+
+.active_tab p .non_active_tab h3 {
+    color: var(--inActive_color);
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    /* border: 2px solid green; */
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    background-color: #fff;
+
+}a
+
+.sticky.tabOptions {
+    background-color: #fff;
+    /* padding: 0 120px; */
+}

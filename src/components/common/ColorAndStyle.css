@@ -1,0 +1,12 @@
+:root {
+    --zomato_text_color_dark: #696969;
+    --inActive_color: #696969;
+    --active_color: #EF4F5F;
+}
+
+.common_title {
+    font-size: 30px;
+    color: #1c1c1c;
+    margin-bottom: 32px;
+    font-weight: 600;
+}

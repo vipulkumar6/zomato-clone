@@ -1,0 +1,113 @@
+#root {
+    --zomato-color: #f3707d;
+    --zomato_light_color: #757575;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+    /* border: 1px solid; */
+
+}
+
+.navbar .logo_box img {
+    height: 100%;
+    width: 100%;
+    /* border: 2px solid green; */
+    overflow: hidden;
+}
+
+.navbar .logo_box {
+    height: 27px;
+    width: 127px;
+    margin-right: 10px;
+}
+
+.navbar .searchBox {
+    margin-left: 15px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    width: 700px;
+    height: 50px;
+    border-radius: 7.5px;
+    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+    /* box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px; */
+    /* box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px; */
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border: 1px solid solid;
+    padding: 10px;
+    color: var(--zomato_light_color);
+}
+
+.searchBox .location {
+    flex-basis: 31%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.searchBox .location_icon {
+
+    color: var(--zomato-color);
+    font-size: 20px;
+    margin-right: 6px;
+}
+
+.searchBox .search {
+    flex-basis: 60%;
+    color: #828282;
+}
+
+.navbar .searchBox input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    color: var(--zomato_light_color);
+    /* border: 1px solid; */
+    width: 100%;
+    letter-spacing: 1px;
+
+
+}
+
+.navbar .searchBox div {
+    display: flex;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.navbar .left_sec {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#location_icon {
+    color: var(--zomato-color);
+    font-size: 20px;
+    margin-right: 8px;
+}
+
+.searchBox .search p {
+    margin: 0 9px;
+}
+
+#s_icons {
+
+    font-size: 23px;
+
+}
+
+.myprofile {
+    display: flex;
+    align-items: center;
+    color: #282828;
+    color: #828282;
+}
+
+.myprofile #profileicon {
+    font-size: 35px;
+    margin-right: 4px;
+}

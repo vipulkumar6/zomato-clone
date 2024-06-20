@@ -1,0 +1,13 @@
+.breadcrumb .link {
+
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.breadcrumb {
+    margin-top: 13px;
+}
+
+.breadcrumb .active {
+    color: #CFCFCF;
+}

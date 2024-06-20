@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react'
+import Home from './Pages/Home'
+import Header from './components/common/Header/Header'
+import FAQs from './components/common/FAQs/FAQs'
+import GoToTopButton from './components/GoOnTop'
+import FormBox from './components/form'
+import Footer from './components/common/Footer/Footer'
 
-function App() {
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <div className='zomato_container'>
+        <Header />
+
+        <Home />
+        {/* <FormBox /> */}
+        {/* <GoToTopButton /> */}
+
+        {/* <FAQs /> */}
+        <Footer />
+      </div>
+    </>
+  )
 }
 
-export default App;
+export default App
+
