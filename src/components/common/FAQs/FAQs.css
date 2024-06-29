@@ -3,3 +3,57 @@
     --zomato_light_color: #757575;
     --zomato_black: #363636;
 }
+
+.faqs_wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 240px;
+
+}
+
+.faqs_wrapper h1 {
+    margin: 10px 0 10px 0;
+}
+
+.faqs_wrapper .accordion {
+    border-radius: 7px;
+    padding: 7px 10px;
+    margin: 10px 0;
+    overflow: hidden;
+    border-top: 0.8px solid #AEAEAE;
+}
+
+.faqs_wrapper h2 {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.faqs_wrapper p {
+    color: #AEAEAE;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.faqs_wrapper .resto_name p {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.faqs_wrapper .resto_name p li {
+    list-style: none;
+    margin: 10px 0;
+
+}
+
+.faqs_wrapper .cities {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.faqs_wrapper .cities li {
+    list-style: none;
+    margin: 10px 0;
+
+}

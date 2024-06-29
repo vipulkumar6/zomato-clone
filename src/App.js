@@ -17,7 +17,7 @@ const App = () => {
         {/* <FormBox /> */}
         {/* <GoToTopButton /> */}
 
-        {/* <FAQs /> */}
+        <FAQs />
         <Footer />
       </div>
     </>
